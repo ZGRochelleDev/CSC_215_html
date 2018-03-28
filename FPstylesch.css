@@ -1,0 +1,46 @@
+body{
+      font-family: Centaur, "Century Gothic", Arial;
+      font-size: 14pt;
+      background-image: url("background4.png");
+
+}
+
+p     {margin-left: 10pt;
+      margin-right: 10pt;}
+      
+a     {text-decoration: none;
+      color: blue;}
+      
+img   {border-color: transparent;}
+
+th    {color: black;
+      backgroundd-color: #757775;}
+      
+tr.stripe	{background-color: #d8d8ce;}
+	 
+td.bolder	{font-weight: bold;}
+
+caption	{caption-side: bottom;
+		font-style: italic;}
+            
+table{
+    border-collapse: collapse;
+    width: auto%;
+    padding: 8px;
+    text-align: left;
+
+          }
+th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+}      
+
+.menu {
+      text-align: left
+      width: 80%;
+      }
+}
+
+td.menupipe    {width: 50%;}
+

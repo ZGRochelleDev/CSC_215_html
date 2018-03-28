@@ -1,0 +1,164 @@
+<!--
+CSC215 Final Project/Presentation 
+
+Zoe Rochelle
+10134460
+CSC-215-02
+Dr. Liu-Saya
+
+Project Goals:
+1)	Design a web site that contains at least 5 html pages.
+2)	Please choose a topic of your choice. 
+3)	Please prepare a 7-10 minute presentation.
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#mainText {
+width:750px;
+margin:0 auto;
+color:white;
+background:#006666;
+}
+#leftColumn {
+float:left;
+}
+
+#zoeNew {
+      width:750px;
+      margin:0 auto;
+      font-family: times;
+      font-size: 12px;
+      padding: 0px;
+      display: inline;
+}
+
+div.images {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: right;
+      width: auto;
+      color:white;
+      text-align: center;
+}
+
+a.one:link, a:visited {
+    background-color: #006666;
+    color: white;
+    padding: 16px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+} 
+a.one:hover, a:active {
+    background-color: #ff3300;
+}
+
+
+#bottomNavigation {
+clear:both;
+text-align: center;
+background:#006666;
+text-decoration: none;
+}
+#bottominformation {
+color: white;
+clear:both;
+font-size: 16px;
+text-align: center;
+text-decoration: none;
+}
+a.two:link, a:visited,{
+    background-color: #006666;
+    color: white;
+    padding: 16px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+} 
+
+a.two:hover {color:#ff3300;}
+
+</style>
+<title>Me Final Project
+</title>
+<link rel="stylesheet" type="text/css" href="FPstylesch.css" />
+</head>
+
+<body>
+
+<div id=zoeNew> 
+      <h1 style="color:#ff3300; text-shadow: 2px 2px black;" <!--The Color is Inline, the font is Internal -->
+            Zoe Rochelle
+            <br>
+            Final Project
+            <br>
+            CSC 215-02
+            <br>
+            Dr. Liu-Saya
+      </h1>
+</div>
+
+<!--pictures-->
+<div class="images">
+
+  <a target="_blank" href="Ada_Lovelace_portrait.jpg">
+    <img src="Ada_Lovelace_portrait.jpg" alt="Trolltunga Norway" width="auto" height="auto">
+  </a>
+  
+  <div class="desc">Ada at 25 a few years before writing Notes</div>
+  
+</div>
+
+
+<!--vertical left justified Table-->
+<div id="leftColumn">
+<br /><table class="menu" style="border-style: none">
+  <tr>
+		<td><a class="one" href="default.asp" target="_blank">Home</a></td> <!--To add image to link: <img src="home.gif" width="50" height="21" alt="row" />-->
+  </tr>
+  <tr>
+		<td><a class="one" href="default.asp" target="_blank">Page 2</a></td>
+  </tr>
+  <tr>
+		<td><a class="one" href="default.asp" target="_blank">Page 3</a></td>
+  </tr>
+    <tr>
+		<td><a class="one" href="default.asp" target="_blank">Page 4</a></td>
+  </tr>
+    <tr>
+		<td><a class="one" href="default.asp" target="_blank">Page 5</a></td>   
+  </tr>
+</table>
+</div>
+
+<!--Note: ids must be unique where as class can be applied to many things. In CSS, ids look like #elementID and class elements look like .someClass-->
+
+<div id="mainText">
+<h1 style="text-align: center; color:#ff3300">Ada, Countess of Lovelace</h1>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris vel magna. Mauris risus nunc, tristique varius, gravida in, lacinia vel, elit. Nam ornare, felis non faucibus molestie, nulla augue adipiscing mauris, a nonummy diam ligula ut risus. Praesent varius. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Nulla a lacus. Nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce pulvinar lobortis purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec semper ipsum et urna. Ut consequat neque vitae felis. Suspendisse dapibus, magna quis pulvinar laoreet, dolor neque lacinia arcu, et luctus mi erat vestibulum sem. Mauris faucibus iaculis lacus. Aliquam nec ante in quam sollicitudin congue. Quisque congue egestas elit. Quisque viverra. Donec feugiat 
+</div>
+
+<div id="bottomNavigation" >
+	<a class="two" href="https://www.google.com/">Home</a>
+      		<td>|</td>
+      <a class="two" href="https://www.google.com/">page2</a>
+      		<td>|</td>
+      <a class="two" href="https://www.google.com/">page3</a>
+      		<td>|</td>
+      <a class="two" href="https://www.google.com/">page4</a>
+      		<td>|</td>
+      <a class="two" href="https://www.google.com/">page5</a>
+</div>
+
+<div id="bottominformation" >
+April 2017 ECSU - Contact me at <a href="mailto:rochellez@my.easternct.edu"> rochellez@my.easternct.edu</a>.
+</div>
+
+</body>
+</html>
